@@ -1,0 +1,33 @@
+/* Responsive using Flexbox & Bootstrap Breakpoints */
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 576px) {
+  /* sm */
+}
+
+@media screen and (min-width: 768px) {
+  /* md */
+}
+
+@media screen and (min-width: 992px) {
+  /* lg */
+}
+
+@media screen and (min-width: 1200px) {
+  /* xl */
+}
+
+@media screen and (min-width: 1400px) {
+  /* xxl */
+}
