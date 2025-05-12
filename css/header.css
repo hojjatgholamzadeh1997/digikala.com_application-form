@@ -1,6 +1,10 @@
 /* header */
 header {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  position: sticky;
+  z-index: 9999;
+  top: 0;
 }
 
 header .header-container {
