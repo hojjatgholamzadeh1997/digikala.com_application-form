@@ -6,7 +6,7 @@
 
   **Start Date** : 11 May 2025
 
-  **End Date** : Developing...
+  **End Date** : 12 May 2025
 
   **Idea from** : [https://career.hrcando.ir/co/Digikala/application-form/f4b8c473-b240-4563-a08b-0764f32307cc](https://career.hrcando.ir/co/Digikala/application-form/f4b8c473-b240-4563-a08b-0764f32307cc)
 
