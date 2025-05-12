@@ -1,1 +1,69 @@
 /* header */
+header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+header .header-container {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 15px;
+}
+
+@media screen and (min-width: 992px) {
+  header .header-container {
+    margin: 0 50px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  header .header-container {
+    margin: 0 180px;
+  }
+}
+
+/* header right */
+header .header-container .header-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+header .header-container .header-right img {
+  width: 40px;
+  height: 40px;
+}
+
+header .header-container .header-right button {
+  padding: 12px 10px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 12px;
+}
+
+/* header left */
+header .header-container .header-left {
+  color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  header .header-container .header-left {
+    display: flex;
+  }
+}
+
+header .header-container .header-left i {
+  font-size: 14px;
+  line-height: 0;
+}
+
+header .header-container .header-left span {
+  font-size: 12px;
+}
