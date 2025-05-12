@@ -1,1 +1,270 @@
 /* main */
+main .form-container {
+  margin: 0 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+@media screen and (min-width: 992px) {
+  main .form-container {
+    margin: 0 200px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  main .form-container {
+    margin: 0 310px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  main .form-container {
+    margin: 0 330px;
+  }
+}
+
+/* label */
+main .form-container .form-label {
+  margin: 35px 0 15px 0;
+}
+
+main .form-container .form-label h1 {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: iranyekan-web-bold;
+  margin-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  main .form-container .form-label h1 {
+    font-size: 16px;
+  }
+}
+
+main .form-container .form-label p {
+  color: #525252;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+
+/* horizontal rule */
+main .form-container hr {
+  border-color: red !important;
+}
+
+/* title */
+main .form-container .form-title {
+  margin-bottom: 35px;
+}
+
+main .form-container .form-title span:nth-child(1) {
+  background-color: #e02929;
+  border-radius: 50%;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-size: 11px;
+  line-height: 20px;
+  color: #fff;
+  margin-left: 4px;
+}
+
+main .form-container .form-title span:nth-child(2) {
+  font-size: 13px;
+  font-family: iranyekan-web-bold;
+}
+
+@media screen and (min-width: 768px) {
+  main .form-container .form-title span:nth-child(2) {
+    font-size: 14px;
+  }
+}
+
+/* form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+form label {
+  font-size: 13px;
+  color: #525252;
+}
+
+form label span {
+  color: red;
+}
+
+form input {
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  font-family: inherit;
+  padding: 0 15px;
+  font-size: 12px;
+  outline: 0;
+  caret-color: rgba(0, 0, 0, 0.9);
+}
+
+form input::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+/* name-family */
+form .form-name-family {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* form-phone-email-container */
+form .form-phone-email-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media screen and (min-width: 992px) {
+  form .form-phone-email-container {
+    flex-direction: row;
+  }
+}
+
+/* phone */
+form .form-phone {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media screen and (min-width: 992px) {
+  form .form-phone {
+    width: 50%;
+  }
+}
+
+/* email */
+form .form-email {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media screen and (min-width: 992px) {
+  form .form-email {
+    width: 50%;
+  }
+}
+
+/* military-service */
+form .form-military-service {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+@media screen and (min-width: 992px) {
+  form .form-military-service {
+    width: 50%;
+  }
+}
+
+form .form-military-service i {
+  position: absolute;
+  color: rgba(0, 0, 0, 0.1);
+  bottom: 10px;
+  left: 12.5px;
+  line-height: 0;
+  font-size: 18px;
+}
+
+form .form-military-service select {
+  all: unset;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.4);
+  font-family: inherit;
+  height: 40px;
+  border-radius: 5px;
+  padding: 0 15px;
+  font-size: 12px;
+  line-height: 40px;
+  outline: 0;
+}
+
+form .form-military-service select:hover {
+  cursor: pointer;
+}
+
+form .form-military-service select option {
+  color: #525252;
+  background-color: #f4f4f4;
+  font-size: 12px;
+}
+
+/* resume-file */
+form .form-resume-file {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 35px 0;
+}
+
+form .form-resume-file .resume-file-container {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  height: 109px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 13px;
+}
+
+form .form-resume-file .resume-file-container:hover {
+  cursor: pointer;
+}
+
+form .form-resume-file .resume-file-container i {
+  font-size: 22px;
+  color: #e02929;
+}
+
+form .form-resume-file .resume-file-container span {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (min-width: 768px) {
+  form .form-resume-file .resume-file-container span {
+    font-size: 14px;
+  }
+}
+
+form .form-resume-file p {
+  color: #a8a8a8;
+  font-size: 11.3px;
+}
+
+form .form-resume-file p span {
+  font-family: sans-serif;
+}
+
+/* send button */
+form .form-send-button {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+form button {
+  width: 135px;
+  background-color: #e02929;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 2px;
+  border: 1px solid #ffc400;
+}

@@ -35,7 +35,69 @@
       </div>
      </header>
     <!-- main -->
-     <main></main>
+     <main>
+      <div class="form-container">
+        <!-- label -->
+        <div class="form-label">
+          <h1>فرم استخدام</h1>
+          <p>Front-End Engineer</p>
+        </div>
+        <!-- horizontal rule -->
+        <hr>
+        <!-- title -->
+        <div class="form-title">
+          <span>۱</span>
+          <span>اطلاعات اولیه</span>
+        </div>
+        <!-- form -->
+        <form>
+          <!-- name-family -->
+          <div class="form-name-family">
+            <label for="name-family">نام و نام خانوادگی<span>*</span></label>
+            <input type="text" name="name-family" id="name-family" placeholder="وارد نمایید.">
+          </div>
+          <!-- phone & email -->
+          <div class="form-phone-email-container">
+            <!-- form-phone -->
+            <div class="form-phone">
+              <label for="phone">شماره تماس<span>*</span></label>
+              <input type="text" name="phone" id="phone" placeholder="وارد نمایید.">
+            </div>
+            <!-- form-email -->
+            <div class="form-email">
+              <label for="email">ایمیل<span>*</span></label>
+              <input type="text" name="email" id="email" placeholder="وارد نمایید.">
+            </div>
+          </div>
+          <!-- military-service -->
+          <div class="form-military-service">
+            <label for="military-service">وضعیت نظام‌ وظیفه<span>*</span></label>
+            <i class="bi bi-caret-down-fill"></i>
+            <select name="military-service" id="military-service">
+              <option value="" selected disabled hidden>انتخاب نمایید.</option>
+              <option value="done">انجام شده</option>
+              <option value="education dismiss">معافیت تحصیلی</option>
+              <option value="in progress">در حال انجام</option>
+              <option value="included">مشمول</option>
+              <option value="permanent dismiss">معاف دائم</option>
+            </select>
+          </div>
+          <!-- resume-file -->
+          <div class="form-resume-file">
+            <label for="resume">فایل رزومه<span>*</span></label>
+            <div class="resume-file-container">
+              <i class="bi bi-cloud-upload"></i>
+              <span>فایل رزومه خود را آپلود کنید.</span>
+            </div>
+            <p>مشخصات فایل: <span>pdf</span>، حجم فایل کمتر از ۲۰ مگابایت</p>
+          </div>
+          <!-- send button -->
+          <div class="form-send-button">
+            <button type="button">ارسال درخواست</button>
+          </div>
+        </form>
+      </div>
+     </main>
     <!-- footer -->
      <footer></footer>
   </body>

@@ -8,7 +8,7 @@ header .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 15px;
+  margin: 0 18px;
 }
 
 @media screen and (min-width: 992px) {
@@ -20,6 +20,12 @@ header .header-container {
 @media screen and (min-width: 1200px) {
   header .header-container {
     margin: 0 180px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  header .header-container {
+    margin: 0 200px;
   }
 }
 
