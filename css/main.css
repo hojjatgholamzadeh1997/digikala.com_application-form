@@ -32,7 +32,7 @@ main .form-container .form-label {
 main .form-container .form-label h1 {
   font-size: 14px;
   font-weight: normal;
-  font-family: iranyekan-web-bold;
+  font-family: iranyekan-web-bold, sans-serif;
   margin-bottom: 5px;
 }
 
@@ -73,7 +73,7 @@ main .form-container .form-title span:nth-child(1) {
 
 main .form-container .form-title span:nth-child(2) {
   font-size: 13px;
-  font-family: iranyekan-web-bold;
+  font-family: iranyekan-web-bold, sans-serif;
 }
 
 @media screen and (min-width: 768px) {
@@ -250,7 +250,7 @@ form .form-resume-file p {
 }
 
 form .form-resume-file p span {
-  font-family: sans-serif;
+  font-family: sans-serif, sans-serif;
 }
 
 /* send button */
